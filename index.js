@@ -69,10 +69,7 @@ export default class MultiStep extends Component {
         
         return (
             <View>
-                <ScrollView>
                    {this.state.steplist[this.state.curState]}
-                    
-                </ScrollView>
             </View>
         )
             
